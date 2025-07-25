@@ -32,3 +32,5 @@ test("renders a Article component for each post passed as a prop", () => {
   const { container } = render(<ArticleList posts={posts} />);
   expect(container.querySelector("main").children).toHaveLength(3);
 });
+
+export default ArticleList;

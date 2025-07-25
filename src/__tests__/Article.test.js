@@ -62,3 +62,5 @@ test("renders a <p> with the preview text", () => {
   expect(p).toBeInTheDocument();
   expect(p.tagName).toBe("P");
 });
+
+export default Article;
